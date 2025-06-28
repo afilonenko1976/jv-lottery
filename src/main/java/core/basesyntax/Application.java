@@ -9,6 +9,8 @@ public class Application {
         Ball ball3 = Lottery.getRandomBall();
 
         System.out.println(ball1.toString());
+        System.out.println(ball2.toString());
+        System.out.println(ball3.toString());
 
     }
 }
