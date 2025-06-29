@@ -4,9 +4,12 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Ball ball1 = Lottery.getRandomBall();
-        Ball ball2 = Lottery.getRandomBall();
-        Ball ball3 = Lottery.getRandomBall();
+        Lottery lot1 = new Lottery();
+        Ball ball1 = lot1.getRandomBall();
+        Lottery lot2 = new Lottery();
+        Ball ball2 = lot2.getRandomBall();
+        Lottery lot3 = new Lottery();
+        Ball ball3 = lot3.getRandomBall();
 
         System.out.println(ball1.toString());
         System.out.println(ball2.toString());
